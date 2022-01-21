@@ -1,24 +1,4 @@
 var widgets = require('@jupyter-widgets/base');
-var mol = require('./molstar');
-require('./molstar.css')
-
-function initViewer(target) {
-    return new mol.Viewer(target, { 
-        layoutIsExpanded: false,
-        layoutShowControls: false,
-        layoutShowRemoteState: false,
-        layoutShowSequence: true,
-        layoutShowLog: false,
-        layoutShowLeftPanel: true,
-
-        viewportShowExpand: true,
-        viewportShowSelectionMode: false,
-        viewportShowAnimation: false,
-
-        pdbProvider: 'rcsb',
-        emdbProvider: 'rcsb',})
-}
-
 // See example.py for the kernel counterpart to this file.
 
 

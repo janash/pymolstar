@@ -1,3 +1,4 @@
+var widgets = require('@jupyter-widgets/base');
 var mol = require('./molstar');
 require('./molstar.css')
 
