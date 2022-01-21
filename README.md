@@ -6,14 +6,12 @@ Jupyter widget for MolStar Viewer
 Installation
 ------------
 
-To install use pip:
-
-    $ pip install pymolstar
-
-For a development installation (requires [Node.js](https://nodejs.org) and [Yarn version 1](https://classic.yarnpkg.com/)),
+To install:
 
     $ git clone https://github.com//pymolstar.git
     $ cd pymolstar
+    $ conda env create -f dev_environment.yaml
+    $ conda activate molstar-dev
     $ pip install -e .
     $ jupyter nbextension install --py --symlink --overwrite --sys-prefix pymolstar
     $ jupyter nbextension enable --py --sys-prefix pymolstar

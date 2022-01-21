@@ -1,0 +1,7 @@
+name: molstar-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - yarn
+  - notebook
