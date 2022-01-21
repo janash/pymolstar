@@ -58,7 +58,7 @@ setup_args = dict(
     cmdclass=cmdclass,
     author='Jessica A. Nash',
     author_email='janash@vt.edu',
-    url='https://github.com//pymolstar',
+    url='https://github.com/janash/pymolstar',
     keywords=[
         'ipython',
         'jupyter',
