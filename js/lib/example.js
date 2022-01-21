@@ -1,10 +1,6 @@
 var widgets = require('@jupyter-widgets/base');
-var _ = require('lodash');
-//import { DefaultPluginUISpec, PluginUISpec } from 'molstar/lib/mol-plugin-ui/spec';
-//import { createPluginAsync } from 'molstar/lib/mol-plugin-ui/index';
-//import { PluginConfig } from 'molstar/lib/mol-plugin/config';
-var mol = require('molstar/build/viewer/molstar');
-require('molstar/build/viewer/molstar.css')
+var mol = require('./molstar');
+require('./molstar.css')
 
 function initViewer(target) {
     return new mol.Viewer(target, { 
